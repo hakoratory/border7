@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 /**
  * ScoreBoard Component
  * 1. ScoreBoard関数の引数 score をオブジェクトリテラルで受け取る
- * 2. JSX内のコメントで示している箇所に、MuiのTypographyコンポーネントをセットする
- *    Typographyコンポーネントは以下の仕様に沿ってセットする
+ * 2. JSX内のコメントで示している箇所に、MuiのTypographyコンポーネントをレンダーする
+ *    Typographyコンポーネントは以下の仕様に沿ってレンダーする
  *
  *  variant属性に "h4"、id属性に "score-text" を設定する
  *  子要素にScoreBoard関数の引数 score を渡す

@@ -3,7 +3,7 @@ import Text from '../constants/text'
 
 /**
  * Title Component
- * JSX内のコメントで示している箇所に、Boxをセットする
+ * JSX内のコメントで示している箇所に、Boxをレンダーする
  * 各Boxは以下の仕様に沿って作成する
  *
  * Box1：
