@@ -2,11 +2,11 @@ import PropTypes from 'prop-types'
 import { Box, Grid } from '@mui/material'
 
 /**
- * CardBox Component
+ * CardBoxコンポーネント
  * 1. CardBox関数の引数 suit, rank をオブジェクトリテラルで受け取る
- * 2. src/components/Card.jsx をインポートする
- * 3. JSX内のコメントで示している箇所に、Cardをレンダーする
- * 4. Cardに、CardBox関数の引数 suit, rank を渡す
+ * 2. src/components/Card.jsx から Cardコンポーネントをインポートする
+ * 3. JSX内のコメントで示している箇所に、Cardコンポーネントをレンダーする
+ * 4. Cardコンポーネントに、CardBox関数の引数 suit, rank を渡す
  *
  *  Test command
  *  `npm run test components/CardBox.test.jsx`

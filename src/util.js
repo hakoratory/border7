@@ -15,7 +15,7 @@ export function getDeck() {}
 
 /**
  * getRankNum関数
- * 引数rankの値に応じて数値を返す
+ * 引数 rank の値に応じて数値を返す
  *
  * 例："A" -> 1, "2" -> 2, "J" -> 11
  *

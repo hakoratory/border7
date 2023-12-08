@@ -3,10 +3,10 @@ import { Box } from '@mui/material'
 import Text from '../constants/text'
 
 /**
- * StartButton Component
+ * StartButtonコンポーネント
  * 1. StartButton関数の引数 onClickStart をオブジェクトリテラルで受け取る
- * 2. src/hooks/useKeyPressListener.js をインポートし、下記の仕様に沿って宣言する
- * 3. src/components/CustomButton.jsx をインポートし、下記の仕様に沿ってレンダーする
+ * 2. src/hooks/useKeyPressListener.js から useKeyPressListener フックをインポートし、下記の仕様に沿って呼び出す
+ * 3. src/components/CustomButton.jsx から CustomButtonコンポーネントをインポートし、下記の仕様に沿ってレンダーする
  *
  * useKeyPressListener仕様
  *   Enterキー、Sキー押下で、StartButton関数の引数 onClickStart が実行されること

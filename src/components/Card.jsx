@@ -2,7 +2,7 @@ import { Card as MuiCard, Box } from '@mui/material'
 import PropTypes from 'prop-types'
 
 /**
- * Card Component
+ * Cardコンポーネント
  * 1. Card関数の引数 suit, rank をオブジェクトリテラルで受け取る
  * 2. JSX内のコメントで示している箇所に、Card関数の引数 suit, rank をセットする
  *    suit, rank は以下の仕様に沿って作成する

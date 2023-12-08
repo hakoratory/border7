@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import StartButton from '../../src/components/StartButton'
 
-describe('StartButton コンポーネントのテスト', () => {
+describe('StartButtonコンポーネントのテスト', () => {
   test('ラベルが START であること', () => {
     render(<StartButton onClickStart={() => console.log('no operation')} />)
 

@@ -2,10 +2,10 @@ import PropTypes from 'prop-types'
 import Text from '../constants/text'
 
 /**
- * NextGameButton Component
+ * NextGameButtonコンポーネント
  * 1. NextGameButton関数の引数 onClickNextGame をオブジェクトリテラルで受け取る
- * 2. src/hooks/useKeyPressListener.js をインポートし、下記の仕様に沿って宣言する
- * 3. src/components/CustomButton.jsx をインポートし、下記の仕様に沿ってレンダーする
+ * 2. src/hooks/useKeyPressListener.js から useKeyPressListener フックをインポートし、下記の仕様に沿って呼び出す
+ * 3. src/components/CustomButton.jsx から CustomButtonコンポーネントをインポートし、下記の仕様に沿ってレンダーする
  *
  * useKeyPressListener仕様
  *   Enterキー、Nキー押下で、NextGameButton関数の引数 onClickNextGame が実行されること

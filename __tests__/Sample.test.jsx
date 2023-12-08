@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import Sample from '../src/components/Sample'
 
-describe('Sample コンポーネントをテストします。', () => {
+describe('Sampleコンポーネントをテストします。', () => {
   test('「Hello jest. This is a Sample.」が表示されていることをチェックします。', () => {
     render(<Sample onClick={() => console.log('no operation')} />)
     // console.log(screen.getByText('Hello jest. This is a Sample.'))

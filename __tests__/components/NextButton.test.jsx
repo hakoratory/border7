@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import NextButton from '../../src/components/NextButton'
 
-describe('NextButton コンポーネントのテスト', () => {
+describe('NextButtonコンポーネントのテスト', () => {
   test('ラベルが NEXT であること', () => {
     render(<NextButton onClickNext={() => console.log('no operation')} />)
 

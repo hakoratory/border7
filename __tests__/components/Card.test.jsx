@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import Card from '../../src/components/Card'
 
-describe('Card コンポーネントのテスト', () => {
+describe('Cardコンポーネントのテスト', () => {
   test('props の値でトランプのマークと数字が表示されること', () => {
     const { getAllByText } = render(<Card rank="A" suit="♠" />)
 

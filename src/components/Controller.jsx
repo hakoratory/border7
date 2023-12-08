@@ -6,21 +6,21 @@ import StartButton from './StartButton'
 import NextGameButton from './NextGameButton'
 
 /**
- * Controller Component
+ * Controllerコンポーネント
  * 1. Controller関数の引数(@param)をオブジェクトリテラルで受け取る
- * 2. 以下の仕様に沿ってgetButtons関数を実装する
+ * 2. 以下の仕様に沿って getButtons関数を実装する
  *
  * getButtons関数仕様
  *   以下記載のとおり、各フラグ(isGameStarted, isGameFinished, answered)の値にしたがって、指定したコンポーネントを返却する
  *
  *     isGameStarted === false のとき
- *       StartButton Component
+ *       StartButtonコンポーネント
  *     isGameFinished === true のとき
- *       NextGameButton Component
+ *       NextGameButtonコンポーネント
  *     answered === true のとき
- *       NextButton Component
+ *       NextButtonコンポーネント
  *     answered === false のとき
- *       Border7Buttons Component
+ *       Border7Buttonsコンポーネント
  *
  *   返却するコンポーネントはそれぞれクリックイベントで関数を受け取ることを期待している
  *   Controller関数の引数(@param)の記載にしたがって、各コンポーネントに対応する関数を渡す

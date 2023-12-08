@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import Text from '../constants/text'
 
 /**
- * Border7Buttons Component
+ * Border7Buttonsコンポーネント
  * 1. Border7Buttons関数の引数 onClickOver, onClickUnder, onClickEven をオブジェクトリテラルで受け取る
- * 2. src/hooks/useKeyPressListener.js をインポートし、下記の仕様に沿って宣言する
- * 3. src/components/CustomButton.jsx をインポートし、下記の仕様に沿ってレンダーする
+ * 2. src/hooks/useKeyPressListener.js から useKeyPressListenerフックをインポートし、下記の仕様に沿って呼び出す
+ * 3. src/components/CustomButton.jsx から CustomButtonコンポーネントをインポートし、下記の仕様に沿ってレンダーする
  *
  * useKeyPressListener仕様
  *   - Enterキー、Oキー押下で、Border7Buttons関数の引数 onClickOver が実行されること

@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import Controller from '../../src/components/Controller'
 
-describe('Controller コンポーネントのテスト', () => {
+describe('Controllerコンポーネントのテスト', () => {
   test('ゲーム開始前は START ボタンが表示されていること', () => {
     const { getByText } = render(
       <Controller

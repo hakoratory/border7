@@ -2,14 +2,14 @@ import { Box, Typography } from '@mui/material'
 import Text from '../constants/text'
 
 /**
- * Title Component
- * JSX内のコメントで示している箇所に、Boxをレンダーする
- * 各Boxは以下の仕様に沿って作成する
+ * Titleコンポーネント
+ * JSX内のコメントで示している箇所に、Boxコンポーネントをレンダーする
+ * 各 Boxコンポーネントは以下の仕様に沿って作成する
  *
- * Box1：
+ * Box1仕様
  * 　class="h1-header" を設定する
  *   children に ’Border7' を渡す
- * Box2：
+ * Box2仕様
  *   class="h2-header" を設定する
  *   children に 'with プロプラ!' を渡す
  *

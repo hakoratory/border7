@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import ScoreBoard from '../../src/components/ScoreBoard'
 
-describe('MessageBox コンポーネントのテスト', () => {
+describe('MessageBoxコンポーネントのテスト', () => {
   test('props.message が表示されること', () => {
     render(<ScoreBoard score="This is a test." />)
 

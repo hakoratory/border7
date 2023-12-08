@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import Title from '../../src/components/Title'
 
-describe('Title コンポーネントのテスト', () => {
+describe('Titleコンポーネントのテスト', () => {
   test('props.message が表示されること', () => {
     render(<Title />)
 

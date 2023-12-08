@@ -2,9 +2,9 @@ import { Box, Typography } from '@mui/material'
 import PropTypes from 'prop-types'
 
 /**
- * MessageBox Component
+ * MessageBoxコンポーネント
  * 1. MessageBox関数の引数 message をオブジェクトリテラルで受け取る
- * 2. JSX内のコメントで示している箇所に、MuiのTypographyコンポーネントをレンダーする
+ * 2. JSX内のコメントで示している箇所に、Mui の Typographyコンポーネントをレンダーする
  *    Typographyコンポーネントは以下の仕様に沿ってレンダーする
  *
  *  variant属性に "h5"、id属性に "message" を設定する

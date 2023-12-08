@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from '@testing-library/react'
 import Border7Buttons from '../../src/components/Border7Buttons'
 
-describe('Border7Buttons コンポーネントのテスト', () => {
+describe('Border7Buttonsコンポーネントのテスト', () => {
   test('ラベルが OVER, UNDER, EVEN であること', () => {
     render(
       <Border7Buttons
@@ -22,7 +22,11 @@ describe('Border7Buttons コンポーネントのテスト', () => {
     const onClickEven = jest.fn()
 
     const { getByText } = render(
-      <Border7Buttons onClickOver={onClickOver} onClickUnder={onClickUnder} onClickEven={onClickEven} />
+      <Border7Buttons
+        onClickOver={onClickOver}
+        onClickUnder={onClickUnder}
+        onClickEven={onClickEven}
+      />
     )
 
     const buttonOver = getByText('OVER')

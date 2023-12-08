@@ -4,7 +4,7 @@ import Check from '../constants/check'
 import Text from '../constants/text'
 
 /**
- * useBorder7 hook
+ * useBorder7フック
  *
  *  Test command
  *  `npm run test hooks/useBorder7.test.js`

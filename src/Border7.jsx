@@ -7,10 +7,9 @@ import Controller from './components/Controller'
 import ScoreBoard from './components/ScoreBoard'
 
 /**
- * Border7 Component
- * 1. useBorder7 hook を宣言する。戻り値は state, action という名前で受け取る
- * 2. JSX内のコメントを参考に CardBox, MessageBox, Controller, ScoreBoard の各コンポーネントをレンダーする
- * 3. 以下の仕様にしたがって、CardBox, MessageBox, Controller, ScoreBoard の各コンポーネントにpropsを渡す
+ * Border7コンポーネント
+ * 1. useBorder7フック を呼び出す。戻り値は state, action という名前で受け取る
+ * 2. 以下の仕様にしたがって、CardBox, MessageBox, Controller, ScoreBoard の各コンポーネントをレンダーする
  *
  * CardBox仕様
  *   state.card が null でないときにレンダーする
@@ -21,7 +20,7 @@ import ScoreBoard from './components/ScoreBoard'
  *   props.message に action.getMessage() を渡す
  *
  * Controller仕様
- *   Controller Component の props の定義にしたがって、state, action をセットする
+ *   Controllerコンポーネントの props の定義にしたがって、state, action をセットする
  *   ※src/components/Controller.jsx の jsDoc または propType を参照
  *
  * MessageBox2仕様
