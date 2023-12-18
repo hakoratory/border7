@@ -3,7 +3,7 @@ import Button from '@mui/material/Button'
 
 /**
  * CustomButtonコンポーネント
- * Mui の styledユーティリティを使用してコンポーネントに以下のスタイルを設定する。
+ * 1. Mui の styledユーティリティを使用してコンポーネントに以下のスタイルを設定する
  *
  * hint {
  *   color: black;

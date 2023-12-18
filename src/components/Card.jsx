@@ -4,15 +4,14 @@ import PropTypes from 'prop-types'
 /**
  * Cardコンポーネント
  * 1. Card関数の引数 suit, rank をオブジェクトリテラルで受け取る
- * 2. JSX内のコメントで示している箇所に、Card関数の引数 suit, rank をセットする
- *    suit, rank は以下の仕様に沿って作成する
+ * 2. JSX内のコメントで示している箇所に、Card関数の引数 suit, rank を以下の仕様に沿ってレンダーする
  *
  * Card上：
- *   「♠A」と表示されるようにセットする
+ *   「♠A」と表示されるようにレンダーする
  * Card中：
- *   「♠」と表示されるようにセットする
+ *   「♠」と表示されるようにレンダーする
  * Card下：
- *   「♠A」と表示されるようにセットする
+ *   「♠A」と表示されるようにレンダーする
  *
  *  Test command
  *  `npm run test components/Card.test.jsx`

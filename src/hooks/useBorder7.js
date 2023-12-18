@@ -36,14 +36,14 @@ export const useBorder7 = () => {
 
   /**
    * startGame関数
-   * state.isGameStarted を true に更新する
-   * state.card を src/util.js#getMaskCard の戻り値で更新する
+   * 1. state.isGameStarted を true に更新する
+   * 2. state.card を src/util.js#getMaskCard の戻り値で更新する
    */
   function startGame() {}
 
   /**
    * isOver関数
-   * 引数cardRank が 7 より大きいかどうかを真偽値で返す
+   * 引数 cardRank が 7 より大きいかどうかを真偽値で返す
    *
    * @param cardRank カードの数字
    * @returns {boolean} カードの数字が 7 より大きいかどうか
@@ -52,7 +52,7 @@ export const useBorder7 = () => {
 
   /**
    * isEven関数
-   * 引数cardRank が 7 に等しいかどうかを真偽値で返す
+   * 引数 cardRank が 7 に等しいかどうかを真偽値で返す
    *
    * @param cardRank カードの数字
    * @returns {boolean}  カードの数字が 7 に等しいかどうか
@@ -61,7 +61,7 @@ export const useBorder7 = () => {
 
   /**
    * isUnder関数
-   * 引数cardRank が 7 より小さいかどうかを真偽値で返す
+   * 引数 cardRank が 7 より小さいかどうかを真偽値で返す
    *
    * @param cardRank カードの数字
    * @returns {boolean} カードの数字が 7 より小さいかどうか
@@ -89,11 +89,11 @@ export const useBorder7 = () => {
    * 以下の仕様に沿って、次のターンに進む処理を実装する
    *
    * 1. デッキが0枚のとき
-   *   1.1. state.isGameFinished を true に更新する
-   *   1.2. state.deck を getDeck の戻り値で更新する
+   *    state.isGameFinished を true に更新する
+   *    state.deck を getDeck の戻り値で更新する
    * 2. それ以外
-   *   2.1. state.card を getMaskCard の戻り値で更新する
-   *   2.2. state.answered を false に更新する
+   *    state.card を getMaskCard の戻り値で更新する
+   *    state.answered を false に更新する
    *
    */
   function next() {}
@@ -124,8 +124,8 @@ export const useBorder7 = () => {
    *
    * 1. state.isGameFinished が true のとき、文字列 'Thank you for playing!' を返す
    * 2. state.answered が true のとき
-   *   2.1. state.isWin が true のとき、文字列 You Win! を返す
-   *   2.2. state.isWin が true のとき、文字列 'You Lose!' を返す
+   *    state.isWin が true のとき、文字列 You Win! を返す
+   *    state.isWin が true のとき、文字列 'You Lose!' を返す
    * 3. それ以外のとき、文字列 'Over or Under?' を返す
    *
    * ※メッセージ文字列は src/constants/text.js に定義している
