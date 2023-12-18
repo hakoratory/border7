@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 /**
  * MessageBoxコンポーネント
  * 1. MessageBox関数の引数 message をオブジェクトリテラルで受け取る
- * 2. JSX内のコメントで示している箇所に、Mui の Typographyコンポーネントをレンダーする
+ * 2. JSX内のコメントで示している箇所に、MUI の Typographyコンポーネントをレンダーする
  * 3. Typographyコンポーネントは以下の仕様に沿ってレンダーする
  *
  *  variant属性に "h5"、id属性に "message" を設定する
