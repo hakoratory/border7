@@ -16,8 +16,14 @@ import PropTypes from 'prop-types'
  * @param message メッセージ
  * @returns {JSX.Element} MessageBox
  */
-export default function MessageBox() {
-  return <Box id="message-box">{/* Typography */}</Box>
+export default function MessageBox({ message }) {
+  return (
+    <Box id="message-box">
+      <Typography variant="h5" id="message">
+        {message}
+      </Typography>
+    </Box>
+  )
 }
 
 MessageBox.propTypes = {

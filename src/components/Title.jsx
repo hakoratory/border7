@@ -7,7 +7,7 @@ import Text from '../constants/text'
  * 各 Boxコンポーネントは以下の仕様に沿って作成する
  *
  * Box1仕様
- * 　class="h1-header" を設定する
+ *   class="h1-header" を設定する
  *   children に ’Border7' を渡す
  * Box2仕様
  *   class="h2-header" を設定する
@@ -24,8 +24,12 @@ import Text from '../constants/text'
 export default function Title() {
   return (
     <>
-      <Typography variant="h1">{/* Box1 */}</Typography>
-      <Typography variant="h2">{/* Box2 */}</Typography>
+      <Typography variant="h1">
+        <Box className="h1-header">{Text.GAME_TITLE}</Box>
+      </Typography>
+      <Typography variant="h2">
+        <Box className="h2-header">{Text.GAME_SUB_TITLE}</Box>
+      </Typography>
     </>
   )
 }

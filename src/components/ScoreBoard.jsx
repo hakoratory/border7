@@ -16,8 +16,14 @@ import PropTypes from 'prop-types'
  * @param score スコア
  * @returns {JSX.Element} ScoreBoard
  */
-export default function ScoreBoard() {
-  return <Box id={'score-board'}>{/* Typography */}</Box>
+export default function ScoreBoard({ score }) {
+  return (
+    <Box id="score-board">
+      <Typography id="score-text" variant="h4">
+        {score}
+      </Typography>
+    </Box>
+  )
 }
 
 ScoreBoard.propTypes = {

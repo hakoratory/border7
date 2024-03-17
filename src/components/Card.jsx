@@ -21,7 +21,7 @@ import PropTypes from 'prop-types'
  * @param rank トランプの数字
  * @returns {JSX.Element} Card
  */
-export default function Card() {
+export default function Card({ suit, rank }) {
   return (
     <MuiCard sx={{ width: '140px', height: '200px' }}>
       <Box
@@ -30,13 +30,13 @@ export default function Card() {
         flexDirection="column"
       >
         <Box sx={{ height: '30px', marginLeft: '10px' }} alignSelf="flex-start">
-          {/* Card上 */}
+          {suit + rank}
         </Box>
         <Box sx={{ fontSize: '30px', height: '140px', lineHeight: '140px' }}>
-          {/* Card中 */}
+          {suit ?? '?'}
         </Box>
         <Box sx={{ height: '30px', marginRight: '10px' }} alignSelf="flex-end">
-          {/* Card下 */}
+          {suit + rank}
         </Box>
       </Box>
     </MuiCard>

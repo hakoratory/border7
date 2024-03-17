@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import { Box, Grid } from '@mui/material'
+import Card from "./Card";
 
 /**
  * CardBoxコンポーネント
@@ -15,7 +16,10 @@ import { Box, Grid } from '@mui/material'
  * @param rank カードの数字
  * @returns {JSX.Element} CardBox
  */
-export default function CardBox() {
+export default function CardBox({
+  suit,
+  rank
+}) {
   return (
     <Box id="card-box">
       <Grid
@@ -25,7 +29,9 @@ export default function CardBox() {
         alignItems="center"
         justifyContent="center"
       >
-        <Grid item>{/* Card */}</Grid>
+        <Grid item>
+          <Card suit={suit} rank={rank} />
+        </Grid>
       </Grid>
     </Box>
   )
