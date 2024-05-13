@@ -6,5 +6,5 @@
 JSX.Element
 
 ## 設計書
-1. children  
+1. Box  
     1.1 `Box` コンポーネントの `children` に引数 `children` を渡す

@@ -9,11 +9,11 @@ export default function Card() {
         display="flex"
         flexDirection="column"
       >
-        {/* Box1 */}
+        {/* 1. Box */}
         <Box sx={{ height: '30px', marginLeft: '10px' }} alignSelf="flex-start"></Box>
-        {/* Box2 */}
+        {/* 2. Box */}
         <Box sx={{ fontSize: '30px', height: '140px', lineHeight: '140px' }}></Box>
-        {/* Box3 */}
+        {/* 3. Box */}
         <Box sx={{ height: '30px', marginRight: '10px' }} alignSelf="flex-end"></Box>
       </Box>
     </MuiCard>

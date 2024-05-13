@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import CustomButton from './CustomButton'
 
 export default function NextGameButton() {
-  // 1. useKeyPressListener
+  // 1. useKeyDownListener
 
   return (
     // 2. CustomButton

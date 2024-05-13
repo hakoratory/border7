@@ -7,10 +7,10 @@ import NextGameButton from "./NextGameButton";
 
 export default function Controller() {
   function getButtons() {
-    // 1. getButtons1
-    // 2. getButtons2
-    // 3. getButtons3
-    // 4. getButtons4
+    // 1. getButtons
+    // 2. getButtons
+    // 3. getButtons
+    // 4. getButtons
   }
 
   return getButtons()

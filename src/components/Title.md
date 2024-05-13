@@ -6,9 +6,9 @@
 JSX.Element
 
 ## 設計書
-1. Typography1  
+1. Typography  
     1.1 `children` に `'Border7'` を渡す  
-2. Typography2  
+2. Typography  
     2.1 `children` に `'with プロプラ!'` を渡す  
 
 ### HINT

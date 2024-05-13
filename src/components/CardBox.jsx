@@ -13,6 +13,7 @@ export default function CardBox() {
         justifyContent="center"
       >
         <Grid item>
+          {/* 1. Card */}
           <Card />
         </Grid>
       </Grid>

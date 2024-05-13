@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-export const useKeyPressListener = () => {
+export const useKeyDownListener = () => {
   useEffect(() => {
     function click() {
     }

@@ -7,9 +7,9 @@
 JSX.Element
 
 ## 設計書
-1. useKeyPressListener  
-    1.1 Enterキー押下で `onClickStart` 関数が実行されるよう `src/hooks/useKeyPressListener.js` を呼ぶ  
-    1.2 Sキー押下で `onClickStart` 関数が実行されるよう `src/hooks/useKeyPressListener.js` を呼ぶ
+1. useKeyDownListener  
+    1.1 Enterキー押下で `onClickStart` 関数が実行されるよう `src/hooks/useKeyDownListener.js` を呼ぶ  
+    1.2 Sキー押下で `onClickStart` 関数が実行されるよう `src/hooks/useKeyDownListener.js` を呼ぶ
 2. CustomButton  
     2.1 `onClick` 属性に引数 `onClickStart` を渡す  
     2.2 `children` に `'START'` を渡す

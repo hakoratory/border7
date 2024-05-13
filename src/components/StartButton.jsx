@@ -3,7 +3,7 @@ import { Box } from '@mui/material'
 import CustomButton from './CustomButton'
 
 export default function StartButton() {
-  // 1. useKeyPressListener
+  // 1. useKeyDownListener
 
   return (
     <Box
